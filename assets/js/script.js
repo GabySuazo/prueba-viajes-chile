@@ -11,14 +11,11 @@ $(function() {
     
                 $("html, body").animate({
                     scrollTop: $(gato).offset().top
-                }, 800, function(){
+                }, 600, function(){
                     window.location.hash = gato;
                 });
             }
         });
-    
-
-
 
 });
 
